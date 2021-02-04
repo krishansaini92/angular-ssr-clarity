@@ -1,7 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { ClarityModule } from '@clr/angular';
-
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -9,7 +7,6 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    ClarityModule,
     BrowserModule.withServerTransition({ appId: 'serverApp' })
   ],
   providers: [],
